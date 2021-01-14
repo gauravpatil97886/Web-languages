@@ -15,3 +15,6 @@ for common web protocols like HTTP and FTP,and popular data types like HTML and 
 
 # JQuery:
 > jQuery is not a programming language instead it is a cross-platform JavaScript library . It doesn't have its own syntax, but rather a set of conventions for using JavaScript syntax. All the scripting you write in jQuery is converted to JavaScript internally. ... The jQuery script rests on the server until it accessed.
+
+# Java:
+> Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. ... As of 2019, Java was one of the most popular programming languages in use according to GitHub, particularly for client-server web applications, with a reported 9 million developers.
