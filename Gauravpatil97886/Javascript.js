@@ -1,1 +1,20 @@
+# javascript Syntax(First js program)
+-------
+  
+<!DOCTYPE html>
+<html>
+<body>
 
+<h2>JavaScript Strings</h2>
+
+<p>Strings can be written with double or single quotes.</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 'John Doe';
+
+</script>
+
+</body>
+</html>
