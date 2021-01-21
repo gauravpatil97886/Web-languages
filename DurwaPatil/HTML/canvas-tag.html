@@ -1,0 +1,21 @@
+<!-- Date : 21 Jan 2021 -->
+
+<!-- The canvas tag is used to draw graphics, on the fly, via scripting (usually JavaScript). -->
+
+<!-- Example of canvas tag -->
+
+            <!DOCTYPE html>
+            <html>
+              <head>
+                <title>Drawing Text</title>
+              </head>
+              <body>
+                <canvas width="500" height="500" id="mycanvas" style="border: 1px solid blue"></canvas>
+                  <script>
+                    var c = document.getElementById('mycanvas');
+                    var ctx = c.getContext("2d");
+                    ctx.font = "30px arial";
+                    ctx.fillText("Welcome to KIIT",150,200);
+                  </script>
+                </body>
+              </html>
