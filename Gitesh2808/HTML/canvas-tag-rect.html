@@ -1,0 +1,21 @@
+<!-- Date : 22 Jan 2021 -->
+
+<!-- Canvas tag in HTML -->
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Canvas Tag</title>
+  </head>
+  <body>
+    <canvas id="mycanvas" width="450" height="450" style="border: 1px solid black;"></canvas>
+    <script>
+      var canvas=document.getElementById('mycanvas');
+      var mydreamarea=canvas.getContext('2d');
+      mydreamarea.fillStyle="red";
+      mydreamarea.fillRect(30,20,50,100);
+    </script>
+  </body>
+</html>
