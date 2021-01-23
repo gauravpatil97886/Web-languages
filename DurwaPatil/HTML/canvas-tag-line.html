@@ -1,0 +1,22 @@
+<!-- Date : 23 Jan 2021 -->
+
+<!-- Canvas tag in HTML to draw the text -->
+
+
+
+            <!DOCTYPE html>
+            <html>
+              <head>
+                <title>Canvas Tag</title>
+              </head>
+              <body>
+                <canvas id="mycanvas" width="250" height="250" style="border: 1px solid red"></canvas>
+                <script>
+                  var canvas=document.getElementById('mycanvas');
+                  var mydreamarea=canvas.getContext("2d");
+                  mydreamarea.moveTo(20,30);
+                  mydreamarea.lineTo(100,120);
+                  mydreamarea.stroke();
+                </script>
+              </body>
+            </html>
