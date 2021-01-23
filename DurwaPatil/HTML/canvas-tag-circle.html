@@ -1,0 +1,22 @@
+<!-- Date : 23 Jan 2021 -->
+
+<!-- Canvas tag in HTML to draw the circle -->
+
+
+
+            <!DOCTYPE html>
+            <html>
+              <head>
+                <title>Canvas Tag</title>
+              </head>
+              <body>
+                <canvas id="mycanvas" width="250" height="250" style="border: 2px dotted blue"></canvas>
+                <script>
+                  var canvas=document.getElementById('mycanvas');
+                  var ctx=canvas.getContext("2d");
+                  ctx.beginPath();
+                  ctx.arc(95,50,40,0,2*Math.PI);
+                  ctx.stroke(); 
+                </script>
+              </body>
+            </html>
