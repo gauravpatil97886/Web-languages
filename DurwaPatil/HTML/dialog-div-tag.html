@@ -1,0 +1,34 @@
+<!-- Date : 25 Jan 2021 -->
+
+<!-- Dialog tag in HTML -->
+
+<!-- The <dialog> tag defines a dialog box or subwindow.
+The <dialog> element makes it easy to create popup dialogs and modals on a web page. -->
+
+
+
+            <!DOCTYPE html>
+            <html>
+              <head>
+                <title>Dialog Tag</title>
+              </head>
+              <body>
+                <dialog id="mydialog" style="border: 1px dotted red; background-color: pink;">
+                  <h1>This is heading</h1>
+                  <p>Welcome to Khandesh IIT</p>
+                  <button id="hide">Close</button>
+                </dialog>
+                <button id="show">Show</button>
+                <script>
+                  var dialog = document.getElementById('mydialog');
+                  document.getElementById('show').onclick=function() 
+                  {
+                    dialog.show();
+                  }
+                  document.getElementById('hide').onclick=function() 
+                  {
+                    dialog.close();
+                  }
+                </script>
+              </body>
+            </html>
