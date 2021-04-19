@@ -1,6 +1,6 @@
 # Web-languages
 
-![](https://miro.medium.com/max/1200/1*HLGtY6O2vUHqIyEbWdmBgA.jpeg)
+![](http://dreamsoft4u.com/blog/wp-content/uploads/2019/05/Full-Stack-Development.png)
 
 ----------------------------
 ### HTML, XHTML, and CSS
